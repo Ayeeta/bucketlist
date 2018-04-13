@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>create bucket list</title>  
+    <meta charset="UTF-8">   
+    <link href="css/create_css.css" rel="stylesheet">
+   
+    </head>
+    <body>
+        <div class="home_logout">View | Logout</div>
+        <div class="create_bucket">Create Your Bucket List</div>
+        <div class="createBucketlist_container">
+            <form action="/" method="POST">             
+            <p> <div class="txtTitle">
+                <input type="text" required autocomplete="on" placeholder="Enter you bucketlist title here.."/>
+             </div>
+             </p>
+             <div id="content">
+             <div id="field_div"><p><input class="addbtn" type="button" onclick="addElement();" value="Add Item"></p></div>
+             </div>  
+             <div class = "savebtnHold"><input class = "savebtn" type="button" value="Save Bucketlist"></div>
+            </form>
+        </div>        
+        <div>
+        <footer class="footer">
+        <p>&copy; Bucketlist 2018</p>
+        </footer>   
+        </div>  
+        <script  src="js/add_removeItem.js"></script>    
+    </body>
+    </html>
