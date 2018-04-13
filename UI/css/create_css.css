@@ -1,0 +1,50 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+.home_logout{
+    text-align: end;
+}
+.footer{
+    text-align: end;
+}
+.create_bucket{
+    text-align: center;
+    font-size: 24px;
+}
+
+.createBucketlist_container{
+    margin-left: 36%;  
+    height: 500px;  
+}
+
+input[type="text"]{
+    height: 30px;
+    width: 400px;
+    font-size: 22px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(124, 148, 255);
+}
+
+.removeBtn{
+  background:none;
+  color:white;
+  border:none;
+  width:110px;
+  height:42px;
+  border-radius:3px;
+  background-color:rgb(124, 148, 255);
+  font-size:16px;     
+}
+
+.savebtn, .addbtn{
+  background:none;
+  color:white;
+  border:none;
+  width:150px;
+  height:42px;
+  border-radius:3px;
+  background-color:rgb(124, 148, 255);
+  font-size:16px;    
+}
