@@ -1,0 +1,70 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+.sign_in{
+    text-align: end;
+}
+.bucketlist{       
+    width:100%;
+    text-align: center;
+    font-size:50px;
+    margin-top: 10%;
+    font-style: unset;
+    font-weight: 100;
+}
+
+.container{
+    margin-top: 50px;
+    border-style:outset;
+    border-top-width: 1px;    
+    border-top-color: rgb(252, 195, 195);
+    border-bottom-color: rgb(250, 218, 218);
+    border-bottom-width: 1px;
+    border-bottom-style: outset;
+    border-left-style: none;
+    border-right-style: none;
+    height: 300px;
+    width: 100%;    
+}
+
+.login_container{               
+    width: 405px;    
+    margin-left: 35%;
+    height:150px;
+    margin-top: 5%;
+}
+.register_container{
+    margin-top: 2%;
+    width: 500px;
+    height: 250px;
+    margin-left: 35%;
+}
+.field_wrap{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+input{
+    height: 30px;
+    width: 400px;
+    font-size: 22px;
+}
+
+#btnlogin{
+    height: 30px;
+    width:70px;    
+    margin-left: 45%;
+    font-size: 22px;    
+}
+
+#btnsubmit{
+    height: 30px;
+    width:85px;
+    margin-left: 34%;
+    font-size: 22px;
+}
+
+.footer{
+    text-align: end;
+}
