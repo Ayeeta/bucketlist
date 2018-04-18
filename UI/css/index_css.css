@@ -7,7 +7,7 @@ body{
 .bucketlist{       
     width:100%;
     text-align: center;
-    font-size:50px;
+    font-size:26px;
     margin-top: 10%;
     font-style: unset;
     font-weight: 100;
@@ -49,13 +49,21 @@ input{
     height: 30px;
     width: 400px;
     font-size: 22px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(124, 148, 255);
 }
 
 #btnlogin{
-    height: 30px;
-    width:70px;    
-    margin-left: 45%;
-    font-size: 22px;    
+    background:none;
+    color:white;
+    border:none;
+    width:110px;
+    margin-left: 40%;
+    height:42px;
+    border-radius:3px;
+    background-color:rgb(124, 148, 255);
+    font-size:16px;   
 }
 
 #btnsubmit{
