@@ -1,0 +1,34 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+.view_container{
+    width:100%;
+    background-color: grey;
+}
+.menu{
+    text-align: end
+}
+.footer{
+    text-align: end;
+}
+table td {
+    border: 1px solid #eee;
+}
+.level1 td:first-child {
+    padding-left: 15px;
+}
+.level2 td:first-child {
+    padding-left: 30px;
+}
+
+.collapse .toggle {
+    background: url("http://mleibman.github.com/SlickGrid/images/collapse.gif");
+}
+.expand .toggle {
+    background: url("http://mleibman.github.com/SlickGrid/images/expand.gif");
+}
+.toggle {
+    height: 9px;
+    width: 9px;
+    display: inline-block;   
+}
