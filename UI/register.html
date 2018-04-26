@@ -13,32 +13,29 @@
         <div class="container">
         <form action="/" method="POST">
             <div  class="register_container">
-            <div class="field_wrap"> 
-            
-            <input id="FName" type="text" required autocomplete="off" placeholder="First Name"/>
+            <div class="field_wrap">             
+              <input name="FName" type="text" required autocomplete="off" placeholder="First Name"/>
             </div>     
 
-            <div class="field_wrap"> 
-            
-            <input id= "LName" type="text" required autocomplete="off" placeholder="Last Name"/>
+            <div class="field_wrap">             
+              <input name="LName" type="text" required autocomplete="off" placeholder="Last Name"/>
             </div>
 
-            <div class="field_wrap"> 
-                
-                <input id="Email" type="text" required autocomplete="off" placeholder="Email"/>
+            <div class="field_wrap">                
+              <input name="Email" type="text" required autocomplete="off" placeholder="email"/>
             </div>
-            <div class="field_wrap">
-                
-                <input id="PWD" type="password" required autocomplete="off" placeholder="Password"/>
-            </div>
-            <div class="field_wrap"> 
-                    
-                    <input type="password" required autocomplete="off" placeholder="confirm password"/>
-                </div>
 
-                <div class="button_container">
-                    <button id="btnsubmit" type="submit" value="Submit" title="Submit">Submit</button>                    
-                </div>
+            <div class="field_wrap">                
+              <input name="PWD" type="password" required autocomplete="off" placeholder="Password"/>
+            </div>
+
+            <div class="field_wrap">                     
+              <input name = "cPWD" type="password" required autocomplete="off" placeholder="confirm password"/>
+            </div>
+
+            <div class="button_container">
+              <button id="btnsubmit" type="submit" value="Submit" title="Submit">Submit</button>                    
+            </div>
             </div>
         </form>
     </div>

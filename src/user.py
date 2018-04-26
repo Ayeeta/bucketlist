@@ -6,6 +6,7 @@ class User(object):
     
     def create_account(self, fname, lname, email, pwd):
         self.users[email] = [fname, lname, pwd]
+        return 'User registered successfully'
     
     def login(self, email, password):
         if email and password not in self.users:

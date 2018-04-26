@@ -9,7 +9,7 @@ USER = User()
 @app.route('/', methods=['GET', 'POST'])
 def main():
     if request.method == 'POST':
-        result = USER.login(request.form['email_address'], request.form['passwd'])
+        result = USER.login(request.form["email_address"], request.form["passwd"])
         if result == 'email and password incorrect':
             return render_template('register.html') 
         else:
@@ -21,12 +21,17 @@ def main():
 @app.route('/register.html', methods=['GET', 'POST'])
 def showsignUp():
     if request.method == 'POST':
-        _fname = request.form['FName']
-        _lname = request.form['LName']
-        _email= request.form['Email']
-        _password = request.form['PWD']
-        USER.create_account(_fname, _lname, _email, _password)
-        return redirect(url_for('/index.html'))
+        fname = request.form["FName"]
+        lname = request.form["LName"]
+        user_email= request.form["Email"]
+        user_password = request.form["PWD"]
+        user_cPassword = request.form["cPWD"]
+        if user_password == user_cPassword:
+            success = USER.create_account(fname, lname, user_email, user_password)
+            if success == 'User registered successfully':
+                return render_template('index.html')
+            else:
+                return render_template('register.html')
     return render_template('register.html') 
 
 @app.route('/create_bucketlist.html', methods=['GET','POST'])
