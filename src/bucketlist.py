@@ -1,5 +1,7 @@
 class Bucketlist(object):
-    
+    """Enable the user perform various operations on the bucketlist
+        e.g create bucketlist and add bucketlist item
+    """
 
     def __init__(self, title):
         self.title = title

@@ -18,8 +18,7 @@ class TDDInBucketlist(unittest.TestCase):
         self.assertNotIn('title', self.bucketlist.titles, msg='not deleted')
 
     def test_view_bucketlist_method(self):
-        a = self.bucketlist.view_bucketlist()
-        self.assertEqual(a, {})
+        self.assertEqual(self.bucketlist.view_bucketlist(), {})
 
     def test_update_bucektlist_method(self):
         self.bucketlist.update_bucketlist('title','title_x') 

@@ -4,6 +4,7 @@
     <title>bucketlist signup user</title>  
     <meta charset="UTF-8">   
     <link href="{{ url_for('static', filename='css/register_css.css') }}" rel="stylesheet">
+            
     </head>
     
     <body>
@@ -14,21 +15,21 @@
             <div  class="register_container">
             <div class="field_wrap"> 
             
-            <input type="text" required autocomplete="off" placeholder="First Name"/>
+            <input id="FName" type="text" required autocomplete="off" placeholder="First Name"/>
             </div>     
 
             <div class="field_wrap"> 
             
-            <input type="text" required autocomplete="off" placeholder="Last Name"/>
+            <input id= "LName" type="text" required autocomplete="off" placeholder="Last Name"/>
             </div>
 
             <div class="field_wrap"> 
                 
-                <input type="text" required autocomplete="off" placeholder="Email"/>
+                <input id="Email" type="text" required autocomplete="off" placeholder="Email"/>
             </div>
             <div class="field_wrap">
                 
-                <input type="password" required autocomplete="off" placeholder="Password"/>
+                <input id="PWD" type="password" required autocomplete="off" placeholder="Password"/>
             </div>
             <div class="field_wrap"> 
                     
